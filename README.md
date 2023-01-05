@@ -5,7 +5,7 @@ Unofficial simple docker image for [widdershins](https://github.com/Mermade/widd
 # Usage
 
 ```
-$ docker run --rm -it -v $PWD:/defs widdershins  --search false --language_tabs 'ruby:Ruby' 'python:Python' --summary petstore3.json -o petstore3.md 
+$ docker run --rm -it -v $PWD:/defs suruseas/widdershins  --search false --language_tabs 'ruby:Ruby' 'python:Python' --summary petstore3.json -o petstore3.md 
 ```
 
 # To build
